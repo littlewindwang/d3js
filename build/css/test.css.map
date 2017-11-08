@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,MAAC;EACC,kBAAkB,EAAE,WAAW",
+"sources": ["../../src/css/testcss.scss"],
+"names": [],
+"file": "test.css"
+}
