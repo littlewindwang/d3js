@@ -2,3 +2,7 @@
 .idea/d3js.iml
 .idea/modules.xml
 node_modules/
+.sass-cache/
+build/
+dist/js/total.min.js
+.idea/workspace.xml___jb_tmp___
