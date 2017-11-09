@@ -29,7 +29,7 @@ module.exports = function (grunt) {
             }
         },
         jshint: {
-            all: ['./global.js']
+            all: ['./src/js/*.js']
         }
     });
 
@@ -40,7 +40,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('outputcss', ['sass']);
     grunt.registerTask('concatjs', ['concat']);
-    grunt.registerTask('conpressJS',['concat','jshint','uglify'])
+    grunt.registerTask('conpressjs',['concat','jshint','uglify']);
 
 
     grunt.registerTask('default');
